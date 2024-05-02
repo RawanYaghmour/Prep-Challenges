@@ -23,10 +23,10 @@
 const objLat = (obj) => {
   
         // Capitalize the first letter of firstName and lastName
-        const capitalizedFirstName = obj.firstName.charAt(0).toUpperCase() + obj.firstName.slice(1);
+        const  capitalizedFirstName = obj.firstName.charAt(0).toUpperCase() + obj.firstName.slice(1);
         const capitalizedLastName = obj.lastName.charAt(0).toUpperCase() + obj.lastName.slice(1);
         
-        // Construct the formatted text
+        // Construct the formatted 
         const formattedText = `my name is ${capitalizedFirstName} ${capitalizedLastName} I am ${obj.age} YO, and I love ${obj.hobby}.`;
         
         return formattedText;
